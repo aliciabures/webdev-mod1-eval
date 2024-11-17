@@ -92,6 +92,7 @@ hr {
 	text-transform: uppercase;
 }
 
+
 .main-article {
 	background-color: #e2e2e2;
 	padding: 1.6rem;
@@ -164,6 +165,11 @@ hr {
 }
 
 @media (min-width: 800px) {
+	
+	
+.container {display:flex;
+flex-direction: row;}
+
 	.header_pub-info {
 		flex-direction: row;
 		justify-content: space-between;
@@ -177,6 +183,7 @@ hr {
 	}
 
 	.main-sidebar {
+		
 		width: 40%;
 		border-radius: 0.6rem;
 		margin: 0;
